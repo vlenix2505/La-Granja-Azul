@@ -182,3 +182,54 @@
     width: 85%;
     height: 92%;
 }
+
+
+@media only screen and (max-width: 1250px) {
+  
+    #test1{
+        position: relative;
+        margin-top: 10px;
+        margin-bottom: 20px;
+        width: 50%;
+        height: 40%;
+    }
+
+    #test1 img{
+        width: 100%;
+        height: auto;
+    }
+
+    #f-complement{
+        display: none;
+    }
+
+    #f-text{
+        height: auto;
+    }
+    #aspect1-text{
+       margin-top: 30px;
+    }
+    #aspect1-img {
+        display: flex;
+        height: 90%;
+        margin-top: 25px;
+        flex-direction: column;
+        align-items: flex-end;
+        width: 40%;
+    }
+
+    #aspect2-text{  
+        margin-top: 50px;
+    }
+
+    #aspect3-text{
+        display: flex;
+        flex-direction: column;
+        width: 24%;
+        margin-top: 20px;
+    }
+
+    #aspect3-text p{
+        margin-bottom: 20px;
+    }
+}

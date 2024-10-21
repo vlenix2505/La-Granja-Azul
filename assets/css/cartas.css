@@ -4,7 +4,7 @@
 
 
 #main-cartas{
-    height: 600px;
+    height: 500px;
     background-color: rgb(255, 255, 255);
     display: flex;
     flex-direction: column;
@@ -58,3 +58,26 @@
 .carta:hover{
     background-color: rgb(174, 172, 170);
 }
+
+
+@media only screen and (max-width: 1250px) {
+   #main-cartas{
+        height: 750px;
+   }
+
+   #img-decoration img{
+    width: 7%;
+ }
+    
+
+}
+
+@media only screen and (max-width: 990px) {
+     
+    #img-decoration img{
+     width: 10%;
+    }
+     
+ 
+ }
+

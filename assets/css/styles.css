@@ -288,7 +288,7 @@ main{
     flex-direction: column;
     justify-content: center;
     padding-top: 10px;
-    padding: ;
+    
 }
 
 #sub-ad2 img{
@@ -466,4 +466,108 @@ i{
     font-size: 13px;
 }
 
+
+
+@media only screen and (max-width: 1250px) {
+    header{
+        flex-direction: column;
+        height: auto;
+        align-items: center;
+        padding: 10px 0;
+        height: 250px;
+    
+    }
+
+    #logo img{
+        width: 50%;
+        height: 100%;        
+    }
+
+    #logo{
+        margin-top: 10px;
+        margin-bottom: 20px; 
+    }
+
+    #buttons{
+        width: 40%;   
+        align-items: center;
+        gap: 20px;
+        margin-top: 20px;
+        
+    }
+
+    #buttons button{
+        width: 35%;
+        height: 90%;
+       
+      
+    }
+    #buttons button:nth-of-type(1){
+        height: 90%;
+
+    }
+
+    #gallery-grid{
+        padding-top: 20px;
+        width: 100%;
+        height: 350px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        gap: 10px;
+    }
+
+    #social-media{
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+        padding-top: 8px;
+    }
+
+    #sub{
+        width: 50%;
+    }
+
+    #menu-footer{
+        width: 20%;
+
+    }
+
+    nav{
+        gap: 10px;
+    }
+
+    #about{
+        width: 70%;
+        height: 1300px;
+    }
+
+    #gallery{
+        height: 500px;
+    }
+
+    #adver1{
+        height: 30%;
+    }
+
+    #adver2{
+        height: 30%;
+
+    }
+
+    #adver3{
+        height: 60%;
+    }
+
+    #adver3 img{
+        width: 85%;
+    }
+
+}
+
+
+@media only screen and (max-width: 775px) {
+  
+}
 

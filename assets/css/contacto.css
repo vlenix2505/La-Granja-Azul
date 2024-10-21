@@ -142,3 +142,28 @@ input,textarea{
     text-transform: uppercase;
     border: none;
 }
+
+@media only screen and (max-width: 1250px) {
+   
+    #main-contact{
+       height: 1350px;
+    }
+    #contact-text{
+        padding-top: 80px;
+    }
+
+    #container-form{
+        height: 50%;
+        padding: 20px 30px;
+        
+    }
+
+
+}
+
+@media only screen and (max-width: 1050px) {
+    #contact-form img{
+        width: 9%;
+    }
+    
+}
